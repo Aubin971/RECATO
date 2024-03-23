@@ -388,7 +388,7 @@ class Ui_MainWindow(object):
             self.genererlineEdit.setText(self.memo[self.a])
             self.a += (-1)
             self.taille=int(412*(score(self.genererlineEdit.text())))
-            self.code_bar.setGeometry(QtCore.QRect(186, 275, self.taille, 14))
+            self.code_bar.setGeometry(QtCore.QRect(186, 271, self.taille, 13))
         except:
             pass
 
@@ -406,4 +406,3 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-
